@@ -1,0 +1,91 @@
+html {
+    width: 118vw;
+    overflow-x: hidden;
+}
+
+.why-us{
+    color: black;   
+}
+.why-us h2{
+    font-size: 54px;
+    margin: 49px;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    padding-right: 226px;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    
+}
+.services::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 885px;
+    width: 100%;
+    z-index: -1;
+    background-color:#abdada ;
+}
+.services-card{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid green; */
+    margin: 8px 0px;
+    height: 280px;
+    width: 100%;
+}
+.card-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 437px;
+    /* border: 2px solid red; */
+}
+.card-box img{
+    color: teal;
+    height: 163px;
+    width: 246px;
+    mix-blend-mode: color-burn;
+}
+.card-text{
+    width: 384px;
+    text-align: center;
+    font-size: 27px;
+    padding: 18px;
+    color: black;
+    font-family: 'Merienda', cursive;
+    
+}
+
+@media screen and (max-width:1024px){
+    .services::before{
+        height: 99rem;
+        width: 118%;
+    }
+    .card-text{
+        font-size: 33px;
+        padding: 14px;
+    }
+    .why-us h2{
+        font-size: 112px;
+        padding-right: 0px ;
+    }
+    .why-us{
+        margin-top: 114px;
+    margin-bottom: 85px;
+    }
+    footer{
+        height: 147px;
+    font-size: 50px;
+    
+    }
+    .services-card{
+        margin: 100px 0px;
+    }
+    .card-box img{
+        height: 303px;
+    }
+}

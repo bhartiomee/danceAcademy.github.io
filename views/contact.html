@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/styleContact.css">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>DanceAcademy|Contact</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="image">
+            <img src="../static/dance logo.png" alt="image" class="logo">
+        </div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="./about">About</a></li>
+            <li><a href="./classInfo">Class Info</a></li>
+            <li><a href="./services">Services</a></li>
+            <li><a href="./contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form class="myForm" action="/contact" method="post">
+          <input class="myInput" type="text" name="name" placeholder="Name"/>
+          <input class="myInput" type="number" name="Age" placeholder="Age"/>
+          <input class="myInput" type="text" name="Mobile_Number" placeholder="Moblie Number"/>
+          <input class="myInput" type="email" name="Email" placeholder="Email"/>
+          <textarea class="myInput" name="address" cols="30" rows="10" placeholder="Address"></textarea>
+          <textarea class="myInput" name="concern" cols="30" rows="10" placeholder="Enter your concern"></textarea>
+          <button class="btn" type="submit" name="submit">SUBMIT</button>
+        </form>
+      </div>
+    <footer id="footer">
+        |Copyright &copy 2020 DanceAcademy.com.| All rights reserved
+
+    </footer>
+    
+</body>
+</html>

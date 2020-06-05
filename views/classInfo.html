@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="../static/styleContact.css">
+    <link rel="stylesheet" href="../static/class.css">
+    <title>DanceAcademy|Class Info</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="image">
+            <img src="../static/dance logo.png" alt="image" class="logo">
+        </div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="./about">About</a></li>
+            <li><a href="./classInfo">Class Info</a></li>
+            <li><a href="./services">Services</a></li>
+            <li><a href="./contact">Contact Us</a></li>
+        </ul>
+        
+    </nav>
+    <div class="pricing-table">
+        <ul class="pricing">
+            <li class="badge">Silver</li>
+            <li class="list">$119 per month</li>
+            <hr />
+            <li class="list">1 individual class</li>
+            <hr />
+            <li class="list">1 Dance Style</li>
+            <hr />
+            <li class="list">2 Days/week</li>
+            <button class="btn" id="btn-price"
+                onClick="document.getElementById('booking-box').scrollIntoView();">Book Now</button>
+        </ul>
+        <ul class="pricing">
+            <li class="badge">Gold</li>
+            <li class="list">$219 per month</li>
+            <hr />
+            <li class="list">2 individual class</li>
+            <hr />
+            <li class="list">2 Dance Style</li>
+            <hr />
+            <li class="list">3 Days/week</li>
+            <button class="btn" id="btn-price"
+                onClick="document.getElementById('booking-box').scrollIntoView();">Book Now</button>
+        </ul>
+        <ul class="pricing">
+            <li class="badge">Diamond</li>
+            <li class="list">$319 per month</li>
+            <hr />
+            <li class="list">5 individual class</li>
+            <hr />
+            <li class="list">All Dance Style</li>
+            <hr />
+            <li class="list">Any Days</li>
+            <button class="btn" id="btn-price"
+                onClick="document.getElementById('booking-box').scrollIntoView();">Book Now</button>
+        </ul>
+    </div>
+    <div id="booking-box">
+        <h1>Registration form</h1>
+        <form class="myForm" action="#" method="post">
+            <input class="reg-form" type="text" name="name" placeholder="Name" />
+            <input class="reg-form" type="number" name="Age" placeholder="Age" />
+            <input class="reg-form" type="text" name="Mobile_Number" placeholder="Moblie Number" />
+            <input class="reg-form" type="email" name="Email" placeholder="Email" />
+            <textarea class="reg-form" name="address" cols="30" rows="10" placeholder="Address"></textarea>
+            <div class="radio">Gender:male
+                <input class="reg-form" type="radio" name="myGender" />female
+                <input class="reg-form" type="radio" name="myGender" />Others
+                <input class="reg-form" type="radio" name="myGender" />
+            </div>
+            <div class="h">Dance style:</div>
+            <div class="dance radio"> <br />
+                hip-hop <input class="reg-form" type="radio" name="danceStyle" />
+                contemporary <input class="reg-form" type="radio" name="danceStyle" />
+                pole Dance<input class="reg-form" type="radio" name="danceStyle" />
+                Ballet <input class="reg-form" type="radio" name="danceStyle" />
+            </div>
+            <button class="btn" type="submit" name="submit">REGISTER</button>
+        </form>
+    </div>
+    <footer id="footer">
+        |Copyright &copy 2020 DanceAcademy.com.| All rights reserved
+
+    </footer>
+</body>
+
+</html>

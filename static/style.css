@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans+Condensed:wght@300&display=swap');
+*{
+    margin: 0;;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/* NAVBAR SECTION */
+    
+#navbar{
+    background-color: #297575;
+    display: flex;
+    height: 116px;
+    
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 184px;
+    padding-top: 40px;
+    
+
+}
+#navbar li{
+    list-style: none;
+    font-family: 'Merienda', cursive;
+    
+   
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 7px 28px;
+    font-size: 26px;
+    color:white;
+}
+#navbar li a:hover{
+    text-decoration: none;
+    padding: 7px 23px;
+    background-color:#39aaaa;
+    border-radius: 23px;
+    font-size: 27px;
+
+}
+#navbar li a :active{
+    background-color:#39aaaa;
+    
+}
+#image{
+    display: flex;
+    /* border: 2px solid blue; */
+    margin-left: 0px;
+    padding-left: 0px;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 120px;
+    width: 107px;
+    padding: 5px;
+    mix-blend-mode: multiply;
+    border-radius: 50%;
+}
+
+/* INTRO SECTION */
+#introSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center /cover  no-repeat url("../static/dance1.jpg");
+    height: 700px;
+    /* background-color: aqua; */
+    
+    font-family: 'Merienda', cursive;
+    font-size: 35px;
+    padding-bottom: 321px;
+
+}
+#introSection div.intro{
+    font-size:58px;
+    padding-top: 183px;
+    color: #92b7b9;
+}
+#introSection div.small{
+    font-size: 25px;
+    text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5), 
+    2px -2px 0 rgba(247, 247, 247, 0.9);
+    padding: 20px;
+    color: #fbf1f1;
+}
+#introSection div.quote{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Kaushan Script', cursive;
+    padding-top: 97px;
+    color: #403131;
+}
+
+
+/* MISSION SECTION */
+#missionSection{
+    position: relative; 
+    height: 433px;
+    background-color: #dff1ed;;
+
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 23px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 36px;
+  
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 48px 22px;
+    height: 209px;
+    
+    
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    color: #0db5dc;
+    font-weight: bolder ;
+    font-family: 'Merienda', cursive;
+    letter-spacing: 1px;
+}
+#card-1{
+    background: center /cover  no-repeat url("../static/dance2.jpg");
+    
+}
+#card-2{
+    background: center /cover  no-repeat url("../static/dance3.jpg");  
+    
+}
+#card-3{
+    background: center /cover  no-repeat url("../static/dance4.jpeg");   
+    
+}
+.card-content{
+    color: #70c6cc;
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
+    font-family: 'Chelsea Market', cursive;
+}
+
+
+
+
+
+/* SPONSERS SECTION */
+#sponsersSection{
+    height: 300px;
+    background-color: #b4d2d48f;
+
+}
+#sponsersSection h2{
+    text-align: center;
+    padding-top: 23px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 200;
+    font-size: 36px;
+  
+}
+.sponsers{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 208px;
+    margin-top: 30px;
+}
+.spImage{
+    height: 80%;
+    margin: 20px;
+    mix-blend-mode: multiply;
+    
+    
+
+}
+.change{
+    height: 66%;
+}
+
+   
+/* FOOTER SECTION */
+footer{
+    
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    height: 52px;
+    background-image: linear-gradient(to right bottom ,#6ccaca,#8d9da0);
+
+}
+
+
+
+/* //MEDIA QUERIES */
+ @media screen and (min-width:600px)and(max-width: 1077px) {
+    html{
+        width: 100vw;
+        overflow-x: hidden;
+      }
+
+    #navbar ul{
+        padding-left: 0px;
+    }
+    #introSection div.intro {
+        font-size: 47px;
+    }
+    #introSection div.quote {
+        font-size: 32px;
+        padding-top: 56px;
+    }
+    .mission-box{
+        display: flex;
+    }
+    .card{
+        margin: 48px 14px;
+    }
+    #missionSection{
+        height: 452px;
+
+    }
+    #sponsersSection{
+        height: 395px;
+    }
+    footer{
+        height: 72px;
+    }
+    #navbar li a{
+        padding: 7px 16px;
+        font-size: 21px;
+    }
+    #navbar li a :hover{
+        font-size: 26px;
+    }
+    .sponsers{
+        padding-left: 69px;
+    }
+    footer{
+        font-size: 19px;
+    }
+  } 
+
+ @media screen and (max-width: 600px)
+  {
+    html{
+        width: 118vw;
+        overflow-x: hidden;
+      }
+      #navbar li a {
+        padding: 7px 13px;
+        font-size: 17px;
+        }
+        #navbar li a :hover {
+            
+            font-size: 18px;
+            }
+        #introSection div.intro {
+            font-size: 40px;
+        }
+        #navbar ul{
+            padding-left: 0px;
+        }
+        .mission-box{
+            display: flex;
+        }
+        .card{
+            margin: 48px 14px;
+        }
+        .logo{
+            width: 78px;
+        }
+    
+        footer{
+            height: 72px;
+        }
+    
+        .sponsers{
+            padding-left: 69px;
+        }
+        
+        
+    
+      
+
+  }
+ 

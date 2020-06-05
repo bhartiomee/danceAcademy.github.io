@@ -1,0 +1,169 @@
+/* about.html STYLING */
+
+.about-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #495656;
+    padding: 31px 18px;
+    font-size: 23px;
+    font-family: 'Merienda', cursive;
+    color: wheat;
+    font-weight: lighter;
+}
+.about-us p{
+    padding: 10px;
+}
+.alignment{
+    display: flex;
+    display: row;
+}
+.img-right{
+    text-align: left;
+
+
+}
+.dance-style{
+    display: flex;
+    flex-direction: column;
+    background-color: #e7f9f59e;
+    padding: 10px 0px;    
+}
+ h2{
+    font-size: 48px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+}
+.dance-style img{
+    height: 511px;
+    width: 661px;
+    padding: 0px 10px;
+    
+}
+
+.dance-form.dance-1{
+    padding: 145px 48px;
+
+}
+.dance-form.dance-2{
+    padding: 160px 51px;
+
+}
+.dance-form.dance-3{
+    padding: 116px 20px;
+
+}
+.dance-form.dance-4{
+    padding: 127px 22px;
+
+}
+.para-container{
+    padding-top: 0px;
+    /* border: 1px solid red; */
+    font-size: 25px;
+    font-family: 'Caveat', cursive;
+}
+
+
+
+/* teacher info section */
+.teachers-info{
+    display: flex;
+    position: relative;
+    height: 476px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.info-card{
+    box-sizing: border-box;
+    height: 404px;
+    width: 337px;
+    padding: 10px 9px;
+    margin-top: 10px;
+    margin-right: 66px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 8px;
+}
+#info-card-1{
+    /* border: 2px solid yellow; */
+    background-color: #c0e0b6;
+}
+#info-card-2{
+    /* border: 2px solid rgb(187, 187, 19); */
+    background-color: #c0e0b6;
+}
+#info-card-3{
+    /* border: 2px solid rgb(61, 61, 31); */
+    background-color: #c0e0b6;
+   
+}
+.teacher-img
+{
+    /* border: 2px solid purple; */
+    /* border-radius: 50%; */
+    display: block;
+    text-align: center;
+}
+.teacher-img img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
+}
+.info-card p{
+    padding: 35px;
+    
+}
+
+/* //MEDIA QUERIRES */
+
+@media screen and (min-width:600px)and(max-width:1020px){
+    html{
+        width: 200vw;
+        overflow-x: hidden;
+      }
+      .about-us{
+        padding: 15px 9px;
+        height: 183px;
+        font-size: 26px;
+      }
+      .dance-style img {
+        height: 515px;
+        width: 561px;
+      }
+    .para-container{
+        font-size: 30px;
+    }
+    .dance-form.dance-1 {
+        padding: 131px 17px;
+    }
+    h2{
+        font-size: 42px;
+    }
+    .dance-form.dance-2 {
+        padding: 125px 37px;
+    }
+    .dance-form.dance-3 {
+        padding: 27px 7px;
+    }
+    .dance-form.dance-4 {
+        padding: 106px 22px;
+    }
+    #info-card-3{
+        margin-right: 0px;
+    }
+    .info-card{
+        padding: 10px 2px;
+        height: 472px;
+        font-size: 28px;
+    }
+    .teachers-info{
+        height: 561px;
+    }
+
+}
+

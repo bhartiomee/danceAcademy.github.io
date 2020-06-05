@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+
+.pricing-table{
+    background-color:#abdada ;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    padding: 47px;
+    background-image: linear-gradient( 109.6deg, #295454 11.2%,#5ab9b9 91.1% );
+    
+    
+}
+
+.pricing{
+    /* border: 2px solid blue; */
+    height: 492px;
+    width: 320px;
+    margin-right: 60px;
+    margin-left: 26px;
+    display: block;
+    text-align: center;
+    background-color: #448a8a59;
+    border-radius: 20px;
+}
+.badge{
+    color:#3ac1bc;
+    font-size: 62px;
+    padding-top: 28px;
+    list-style: none;
+    font-family: 'Merienda', cursive;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+
+
+}
+.list{
+    list-style: none;
+    padding-top: 28px;
+    font-size: 30px;
+}
+
+#btn-price{
+    margin: 60px;
+    font-size: 27px;
+    width: 185px;
+    padding: 6px;
+
+}
+
+#booking-box{
+    font-size: 54px;
+    margin: 113px 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    /* background-image: linear-gradient( 109.6deg, #295454 11.2%,#5ab9b9 91.1% ); */
+}
+.reg-form {
+    width: 436px;
+    padding: 14px;
+    display: block;
+    margin: 1px;
+    outline: none;
+    mix-blend-mode: luminosity;
+}
+.radio{
+    width: 435px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    font-size: 20px;
+    margin: 1px;
+    background-color: white;
+    mix-blend-mode: luminosity;
+}
+.radio input{
+   width: 100%;
+}
+.dance{
+
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 20px;
+    margin-bottom: 23px;
+}
+.h{
+    background-color: white;
+    font-size: 20px;
+    width: 435px;
+    text-align: left;
+    margin-top: 2px;
+    mix-blend-mode: luminosity;
+}
+#booking-box h1{
+    font-size: 54px;
+    margin: 12px 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+.myForm::before{
+    height: 112rem;
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media screen and (max-width: 1020px)
+{
+    html {
+        width: 120vw;
+        overflow-x: hidden;
+    }
+    .myForm::before {
+        width: 120%;
+        height: 139rem;
+    }
+    .pricing-table{
+        padding: 47px 0px;
+    }
+    .pricing{
+        width: 358px;
+        height: 526px;
+    }
+    .list{
+        padding-top: 23px;
+        font-size: 37px
+    }
+    .reg-form{
+        width: 551px;
+        padding: 14px 1px;
+        font-size: 30px;
+    }
+    .radio{
+        width: 551px;
+    padding: 14px 1px;
+    font-size: 30px;
+    }
+    .h{
+        width: 551px;
+        font-size: 30px;
+    
+    }
+    .btn{
+        width: 551px;
+    }
+}
